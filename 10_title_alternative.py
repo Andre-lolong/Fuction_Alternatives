@@ -1,9 +1,8 @@
 # create a function
-# split the text
-# capitalize each in the list
+# capitalize each in the list of splitted text
 # join and display
 def title_alternative(text):
-    words = text.split()
-    capital_words = words.capitalized()
-    " ".join(capital_words)
-    
+  return " ".join(word.capitalize() for word in text.split())
+
+text = input("Enter something: ")
+print(title_alternative(text))
