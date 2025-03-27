@@ -12,3 +12,8 @@ def endswith_alternative(text, suffix):
         return True
     else:
         return False
+    
+main_text = input("Enter the main text: ")
+its_suffix = input("Enter a suffix: ")
+
+print(endswith_alternative(main_text, its_suffix)) 
