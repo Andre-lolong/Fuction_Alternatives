@@ -7,5 +7,5 @@ def is_upper_manual(text):
       return False
   return True
 
-main_text = input("Enter some: ")
+main_text = input("Enter something: ")
 print(is_upper_manual(main_text))
