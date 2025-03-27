@@ -11,3 +11,7 @@ def lower_alternative(text):
     else:
       result += letter
   return result
+
+text = input("Enter something with uppercase: ")
+lowercase = lower_alternative(text)
+print(lowercase)
