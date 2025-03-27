@@ -6,3 +6,6 @@ def is_upper_manual(text):
     if 'a' <= char <= 'z':
       return False
   return True
+
+main_text = input("Enter some: ")
+print(is_upper_manual(main_text))
