@@ -5,3 +5,6 @@ def capitalize_manual(text):
   if text:
     return text[0].upper() + text[1:].lower()
   return text
+
+text = input("Enter something: ")
+print(capitalize_manual(text))
