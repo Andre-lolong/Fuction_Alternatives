@@ -12,3 +12,7 @@ def center_alternative(text, width):
     right_space = space - left_space
 
     return " " * left_space + text + " " * right_space
+
+text = input("Enter a text: ")
+width = int(input("Enter the width you want: "))
+print(center_alternative(text, width)) 
